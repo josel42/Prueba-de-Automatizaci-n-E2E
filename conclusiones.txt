@@ -1,0 +1,20 @@
+CONCLUSIONES DEL EJERCICIO E2E
+
+Se logró automatizar exitosamente un flujo End to End (E2E) de compra
+en la aplicación web SauceDemo utilizando Serenity BDD y el patrón
+Screenplay.
+
+La prueba valida de forma integral el proceso crítico de negocio,
+desde la autenticación del usuario hasta la confirmación final de la
+compra, asegurando que el sistema funcione correctamente desde la
+perspectiva del usuario final.
+
+Serenity BDD permitió una estructura clara, mantenible y legible,
+facilitando la comprensión del flujo de negocio y la generación de
+reportes detallados.
+
+Como mejora futura, se podrían incluir:
+- Manejo de datos dinámicos
+- Pruebas negativas
+- Ejecución en distintos navegadores
+- Integración con CI/CD
