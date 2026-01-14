@@ -1,6 +1,7 @@
 package com.saucedemo.ui;
 
 import net.serenitybdd.screenplay.targets.Target;
+import org.openqa.selenium.By;
 
 public class CheckoutPage {
 
@@ -31,4 +32,7 @@ public class CheckoutPage {
     public static final Target CONFIRMATION =
             Target.the("confirmation message")
                     .locatedBy(".complete-header");
+    public static final Target ORDER_COMPLETE = Target.the("order complete message")
+            .located(By.className("complete-header"));
+
 }
